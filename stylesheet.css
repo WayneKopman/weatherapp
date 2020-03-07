@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'helvetica', sans-serif;
+    background-size: 
+    background-positions; 
+  }
+  
+  .app-wrap {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));  
+    background-color: #FDB813;
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+  }
+  
+  header input { 
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px 10px 10px 10px;
+    border-bottom: 3px solid #DF8E00;
+    color: #313131;
+    font-size: 20px;
+    font-weight: 400;
+    transition: 0.2 ease-out; 
+  }
+  
+  header-input:focus {
+    background-color: rba(255, 255, 255, 0.6);
+  }
+  
+  .btn-primary {
+      max-width: 200px;
+      font-size: 16px;
+      padding: 10px 15px;
+      font-weight: 400;
+      color: #000000;
+      background-color: #ffffff;
+      border: none;
+      border-radius: .3em;
+      font-weight: bold;
+      border-radius: 10px 10px 10px 10px;
+      border: 3px solid #000000;
+      margin: 15px;
+  }
+  
+  .btn-primary:hover {
+      background-color: #DF8E00;
+  }
+  
+  main {
+    flex: 1 1 100%;
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+  }
+  
+  .location .city {
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .location .date {
+    color: black;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .current .temp {
+    color: black;
+    font-size: 80px;
+    font-weight: 800;
+    margin: 5px 0px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5); 
+  }
+  
+  .current .span {
+    font-weight: 600;
+  }
+  
+  .current .weather {
+    color: black;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 5px 0px;
+    /*text-shadow: 0px 2px rgba(0, 0, 0, 0.5);*/ 
+  }
+  
+  .current .hi-low {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 5px 0px;
+    /*text-shadow: 0px 2px rgba(0, 0, 0, 0.4);*/  
+  }
